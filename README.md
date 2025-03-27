@@ -17,13 +17,6 @@ Link: [NIPS 2008 Paper](https://people.eecs.berkeley.edu/~elghaoui/Pubs/hom_lass
 
 This project implements a Lasso (L1-regularized) linear regression model using the **homotopy algorithm**, which incrementally builds a sparse solution path by adjusting the active feature set. Additionally, it supports **online updates**, allowing the model to incrementally learn from new samples without retraining from scratch.
 
-**Use cases:**
-- Sparse regression on high-dimensional data
-- Online learning (streaming data updates)
-- Feature selection when multicollinearity is present
-
----
-
 ## Repository Structure
 
 ```
